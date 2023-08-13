@@ -2,7 +2,7 @@ import "./index.css";
 import Script from 'next/script';
 
 export default function App({ Component, pageProps }) {
-  const GA_MEASUREMENT_ID = 'G-MJBBFB1CJS';
+  const GA_MEASUREMENT_ID = 'G-H02NT3BGMW';
   return <>
     <Component {...pageProps} />;
     <Script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></Script>
