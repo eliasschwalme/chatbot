@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 import Script from 'next/script';
 
 export default function Document() {
-  const GA_MEASUREMENT_ID = 'G-72596064540';
+  const GA_MEASUREMENT_ID = 'G-2NV6CWSZB5';
   return (
     <Html lang="en">
       <Head />
