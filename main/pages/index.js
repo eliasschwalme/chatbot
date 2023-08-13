@@ -17,6 +17,10 @@ export default function Home() {
   const router = useRouter();
 
   const start = async (lang) => {
+    window.gtag('event', 'start_conversation', {
+      lang
+    });
+
     setStarted(true);
 
     const recorder = voiceBot({
