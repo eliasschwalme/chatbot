@@ -132,15 +132,15 @@ export default function Home() {
               ))}
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
-              Avatar animations are only supported for English and Mandarin.
+              Avatar iOS animations are only supported in English.
               <br />
-              To get the full experience, please use one of these languages.
+              To get the full experience, please visit our website "https://www.lee-ai.com/"
               <br />
               <br />
               Non-commercial use only.
               <br />
               <br />
-              Information on data protection is given at lee-ai.com.
+              Information on data protection is given at "https://www.lee-ai.com/privacy-policy"
               <br />
               <br />
               hosted by{" "}
