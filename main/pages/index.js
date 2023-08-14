@@ -106,7 +106,6 @@ export default function Home() {
               fontSize: 24,
             }}
           >
-            <p>Please select a language</p>
             <div
               style={{
                 display: "flex",
@@ -114,22 +113,19 @@ export default function Home() {
                 justifyContent: "center",
               }}
             >
-              {Object.entries(languages).map(([lang, name]) => (
-                <div
-                  key={lang}
-                  style={{
-                    padding: 10,
-                    cursor: "pointer",
-                    backgroundColor: "#fff3",
-                    marginLeft: 5,
-                    marginRight: 5,
-                    marginBottom: 10,
-                  }}
-                  onClick={() => start(lang)}
-                >
-                  {name}
-                </div>
-              ))}
+              <div
+                style={{
+                  padding: 10,
+                  cursor: "pointer",
+                  backgroundColor: "#fff3",
+                  marginLeft: 5,
+                  marginRight: 5,
+                  marginBottom: 10,
+                }}
+                onClick={() => start("en-US")}
+              >
+                Start
+              </div>
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
               Avatar iOS animations are only supported in English.
