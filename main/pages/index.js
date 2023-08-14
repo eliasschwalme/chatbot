@@ -134,18 +134,14 @@ export default function Home() {
             <p style={{ fontSize: 16, marginTop: 5 }}>
               Avatar iOS animations are only supported in English.
               <br />
-              To get the full experience, please visit our website "https://www.lee-ai.com/"
+              To get the full  experience in other languages, please visit our website.
               <br />
               <br />
               Non-commercial use only.
               <br />
               <br />
-              Information on data protection is given at "https://www.lee-ai.com/privacy-policy"
+              Information on data protection is given at lee-ai.com - privacy-policy. 
               <br />
-              <br />
-              Information on data protection is given at{" "}
-              <a href="https://www.lee-ai.com/privacy-policy" style={{ color: "white" }}>
-                Lee-AI Data Protection
               <br />
               hosted by{" "}
               <a href="https://www.linkedin.com/in/elias-schwalme-723b04205/" style={{ color: "white" }}>
