@@ -143,6 +143,10 @@ export default function Home() {
               Information on data protection is given at "https://www.lee-ai.com/privacy-policy"
               <br />
               <br />
+              Information on data protection is given at{" "}
+              <a href="https://www.lee-ai.com/privacy-policy" style={{ color: "white" }}>
+                Lee-AI Data Protection
+              <br />
               hosted by{" "}
               <a href="https://www.linkedin.com/in/elias-schwalme-723b04205/" style={{ color: "white" }}>
                 Elias Schwalme
