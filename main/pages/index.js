@@ -130,7 +130,7 @@ export default function Home() {
             <p style={{ fontSize: 16, marginTop: 5 }}>
               Avatar iOS animations are only supported in English.
               <br />
-              To get the full  experience in other languages, please visit our website.
+              To get the full  experience in other languages, please contact the host.
               <br />
               <br />
               Non-commercial use only.
