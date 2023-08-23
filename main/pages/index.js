@@ -76,7 +76,7 @@ export default function Home() {
               left: 20,
               right: 20,
               textAlign: "center",
-              fontSize: 40,
+              fontSize: 30,
               color: userInput ? "blue" : "black",
               backgroundColor: "#fffa",
               padding: 10,
@@ -128,16 +128,16 @@ export default function Home() {
               ))}
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
-              Avatar animations are only supported for English (iOS) in the App Store.
+              Mobile avatar animation in english language is only available on the iOS device.
               <br />
               To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. 
               <br />
               <br />
               Non-commercial use only.
               <br />
-              Your data is regulated at - lee-ai.com/privacy-policy.
+              Your data is regulated at lee-ai.com/privacy-policy.
               <br />
-              Other cool stuff at{" "}
+              More cool stuff at{" "}
               <a href="https://discord.gg/u2HgJXN7" style={{ color: "white" }}>
                 Discord
               </a>
