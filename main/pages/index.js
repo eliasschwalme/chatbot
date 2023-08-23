@@ -128,19 +128,18 @@ export default function Home() {
               ))}
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
-              Avatar animations are only supported for English and Mandarin.
+              Avatar animations are only supported for English (iOS) in the App Store.
               <br />
-              To get the full experience, please use one of these languages.
+              To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. 
               <br />
               <br />
               Non-commercial use only.
               <br />
-              Your data is sent to AssemblyAI and OpenAI in accordance to their
-              privacy policies.
+              Your data is regulated at - lee-ai.com/privacy-policy.
               <br />
-              Hosted by{" "}
-              <a href="https://github.com/Yonom" style={{ color: "white" }}>
-                Simon Farshid
+              Other cool stuff at{" "}
+              <a href="https://discord.gg/u2HgJXN7" style={{ color: "white" }}>
+                Discord
               </a>
             </p>
           </div>
