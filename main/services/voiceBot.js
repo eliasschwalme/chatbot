@@ -14,10 +14,10 @@ export const languages = canUseWebSpeech
 
 const initialPrompt = {
   "en-US": "Hi, my name is Lee, your personal coach, how can I help you?",
-  "de-DE": "Hi, ich bin Lee, ein Chatbot-Avatar, der auf der Grundlage künstlicher Intelligenz erstellt wurde und auf deine persönlichen Bedürfnisse perfekt eingeht! Gibt es etwas, was ich für dich tun kann?",
-  "fr-FR": "Bonjour, je suis Lee, un chatbot avatar créé sur la base de l'intelligence artificielle qui répond parfaitement à vos besoins personnels ! Y a-t-il quelque chose que je puisse faire?",
-  "es-ES": "Hola, soy Lee, un avatar chatbot creado a base de inteligencia artificial que responde perfectamente a tus necesidades personales. ¿Hay algo que pueda hacer?",
-  "zh-CN": "你好，我是 Lee，一个基于人工智能的聊天机器人化身，能完美满足您的个人需求！我能做什么吗？",
+  "de-DE": "Hallo, mein Name ist Lee, Ihr persönlicher Coach, wie kann ich Ihnen helfen?",
+  "fr-FR": "Bonjour, je m'appelle Lee, votre coach personnel, comment puis-je vous aider?",
+  "es-ES": "Hola, me llamo Lee, soy tu entrenador personal, ¿en qué puedo ayudarte?",
+  "zh-CN": "你好，我是李，你的私人教练，我能为你提供什么帮助",
 };
 
 export const getServicePrompt = (
