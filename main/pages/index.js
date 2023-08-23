@@ -17,10 +17,6 @@ export default function Home() {
   const router = useRouter();
 
   const start = async (lang) => {
-    window.gtag('event', 'start_conversation', {
-      lang
-    });
-
     setStarted(true);
 
     const recorder = voiceBot({
@@ -80,7 +76,7 @@ export default function Home() {
               left: 20,
               right: 20,
               textAlign: "center",
-              fontSize: 20,
+              fontSize: 40,
               color: userInput ? "blue" : "black",
               backgroundColor: "#fffa",
               padding: 10,
@@ -106,6 +102,7 @@ export default function Home() {
               fontSize: 24,
             }}
           >
+            <p>Please select a language</p>
             <div
               style={{
                 display: "flex",
@@ -113,35 +110,37 @@ export default function Home() {
                 justifyContent: "center",
               }}
             >
-              <div
-                style={{
-                  padding: 10,
-                  cursor: "pointer",
-                  backgroundColor: "#fff3",
-                  marginLeft: 5,
-                  marginRight: 5,
-                  marginBottom: 10,
-                }}
-                onClick={() => start("en-US")}
-              >
-                Start
-              </div>
+              {Object.entries(languages).map(([lang, name]) => (
+                <div
+                  key={lang}
+                  style={{
+                    padding: 10,
+                    cursor: "pointer",
+                    backgroundColor: "#fff3",
+                    marginLeft: 5,
+                    marginRight: 5,
+                    marginBottom: 10,
+                  }}
+                  onClick={() => start(lang)}
+                >
+                  {name}
+                </div>
+              ))}
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
-              Avatar iOS animations are only supported in English.
+              Avatar animations are only supported for English and Mandarin.
               <br />
-              To get the full  experience in other languages, please contact the admin.
+              To get the full experience, please use one of these languages.
               <br />
               <br />
               Non-commercial use only.
               <br />
+              Your data is sent to AssemblyAI and OpenAI in accordance to their
+              privacy policies.
               <br />
-              Information on data protection is given at lee-ai.com - privacy-policy. 
-              <br />
-              <br />
-              hosted by{" "}
-              <a href="https://www.linkedin.com/in/elias-schwalme-723b04205/" style={{ color: "white" }}>
-                Elias Schwalme
+              Hosted by{" "}
+              <a href="https://github.com/Yonom" style={{ color: "white" }}>
+                Simon Farshid
               </a>
             </p>
           </div>
