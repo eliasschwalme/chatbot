@@ -138,7 +138,7 @@ export default function Home() {
               Your data is regulated at lee-ai.com/privacy-policy.
               <br />
               More cool stuff at{" "}
-              <a href="https://discord.gg/u2HgJXN7" style={{ color: "white" }}>
+              <a href="https://discord.gg/RpBSmTcm8x" style={{ color: "white" }}>
                 Discord
               </a>
             </p>
