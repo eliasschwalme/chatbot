@@ -130,9 +130,8 @@ export default function Home() {
             <p style={{ fontSize: 16, marginTop: 5 }}>
               On the mobile (iOS) device, the avatar animation is only available in English.
               <br />
-              To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. 
+              To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. Please note this is a beta version.
               <br />
-              Important to note, that is a Beta version.
               <br />
               Non-commercial use only.
               <br />
