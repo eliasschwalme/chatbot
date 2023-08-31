@@ -128,14 +128,14 @@ export default function Home() {
               ))}
             </div>
             <p style={{ fontSize: 16, marginTop: 5 }}>
-              On the mobile (iOS) device, the avatar animation is only available in English.
+              On the mobile (iOS) device, the avatar animation is only available in English 
               <br />
-              To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. Please note this is a beta version.
+              To get the full experience 💪🏼 in German, French, Spanish or Mandarin, please visit our website lee-ai.com.
               <br />
               <br />
-              Non-commercial use only.
+              Non-commercial use only. Please note this is a beta version.
               <br />
-              Your data is regulated at lee-ai.com/privacy-policy.
+              Your data is regulated at lee-ai.com/privacy-policy. 
               <br />
               Other cool stuff on{" "}
               <a href="https://discord.gg/RpBSmTcm8x" style={{ color: "white" }}>
