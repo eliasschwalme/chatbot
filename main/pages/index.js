@@ -132,12 +132,13 @@ export default function Home() {
               <br />
               To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. 
               <br />
+              Important to understand that is a Beta version.
               <br />
               Non-commercial use only.
               <br />
               Your data is regulated at lee-ai.com/privacy-policy.
               <br />
-              Other cool stuff at{" "}
+              Other cool stuff on{" "}
               <a href="https://discord.gg/RpBSmTcm8x" style={{ color: "white" }}>
                 Discord
               </a>
