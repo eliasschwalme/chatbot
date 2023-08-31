@@ -132,7 +132,7 @@ export default function Home() {
               <br />
               To get the full experience in German, French, Spanish or Mandarin, please visit our website lee-ai.com. 
               <br />
-              Important to understand that is a Beta version.
+              Important to note, that is a Beta version.
               <br />
               Non-commercial use only.
               <br />
