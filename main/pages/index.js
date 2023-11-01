@@ -137,9 +137,9 @@ export default function Home() {
               <br />
               Your data is regulated at lee-ai.com/privacy-policy. 
               <br />
-              Other cool stuff on{" "}
-              <a href="https://discord.gg/Xacc4G7UzG" style={{ color: "white" }}>
-                Discord
+              Hosted by{" "}
+              <a href="https://www.linkedin.com/in/elias-schwalme-723b04205/" style={{ color: "white" }}>
+                Elias Schwalme
               </a>
             </p>
           </div>
