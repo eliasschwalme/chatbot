@@ -2,7 +2,7 @@
   "expo": {
     "name": "lee-ai",
     "slug": "lee-ai",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.lee-ai.chatbot",
-      "buildNumber": "6",
+      "buildNumber": "7",
       "infoPlist": {
         "NSMicrophoneUsageDescription": "Lee needs microphone access to speak with you. You can ask her anything. Your audio isn't stored or used elsewhere."
       }
