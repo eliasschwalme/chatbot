@@ -13,7 +13,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "bundleIdentifier": "com.lee-ai.chatbot",
       "buildNumber": "7",
       "infoPlist": {
@@ -25,7 +25,6 @@
         "projectId": "61901fc2-1257-440c-b4f6-a5d3b0e50664"
       }
     },
-    "owner": "lee-ai",
-    "supportsTablet": false
+    "owner": "lee-ai"
   }
 }
