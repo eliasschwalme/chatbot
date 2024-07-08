@@ -13,7 +13,7 @@ export const languages = canUseWebSpeech
   : { "en-US": "English" };
 
 const initialPrompt = {
-  "en-US": "Hi, my name is Lee, your personal coach, how can I help you?",
+  "en-US": "Hi, my name is Lee, your personal assistant, how can I help you?",
   "de-DE": "Hallo, mein Name ist Lee, Ihr persönlicher Coach, wie kann ich Ihnen helfen?",
   "fr-FR": "Bonjour, je m'appelle Lee, votre coach personnel, comment puis-je vous aider?",
   "es-ES": "Hola, me llamo Lee, soy tu entrenador personal, ¿en qué puedo ayudarte?",
